@@ -1,4 +1,4 @@
-body {
+  body {
   background-image: url("../imagenes/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,7 +12,7 @@ a{
 }
 
 #principal{
-  height: 1100px;
+  height: 1250px;
   width: 50%;
   margin: 0 auto;
 }
@@ -31,6 +31,7 @@ nav{
   text-align: center;
   border-radius: 25px;
   opacity: 0.9;
+  
 }
 
 ul {
@@ -42,7 +43,7 @@ ul {
 }
 
 li {
-  float: left;
+  display: inline-block;
   opacity: 1;
 }
 
@@ -60,12 +61,12 @@ li a:hover {
 }
 
 #primero{
-  margin-left: 36%;
+  margin: auto;
 }
 
 section{
   margin-top: 30px;
-  height: 900px;
+  height: 1000px;
   border-radius: 25px;
   background: #2C3021;
   opacity: 0.9;
@@ -90,18 +91,19 @@ p{
 
 #plataformas{
   float: right;
+  margin-top: 5%;
 }
 
 .categoriasDiv{
-    height: 300px;
+    height: 350px;
     line-height: 1000px;
     border: 2px dashed #f69c55;
     position: relative;
 }
 
 .categoriasDiv p{
-  margin:0;
-  padding-top:60px;
+  margin:auto;
+  padding-top:2%;
   padding-left: 30px;
   padding-right: 30px;
   text-align: justify;
@@ -109,6 +111,7 @@ p{
 
 #deportes{
   float: left;
+  margin-top: 5%;
 }
 
 table{
