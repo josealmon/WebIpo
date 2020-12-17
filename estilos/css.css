@@ -81,8 +81,9 @@ section{
 
 #imagenInicial{
   height: 310px;
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: center;
+  display: inline-block;
 }
 
 p{
