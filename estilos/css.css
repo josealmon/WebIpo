@@ -83,7 +83,7 @@ section{
   height: 310px;
   margin-top: 10px;
   text-align: center;
-  display: inline-block;
+  display: inline-flex;
 }
 
 p{
@@ -107,7 +107,6 @@ p{
   padding-right: 5%;
   padding-left: 5%;
   text-align: justify;
-
 }
 
 #deportes{
